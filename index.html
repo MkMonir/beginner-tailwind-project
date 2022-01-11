@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First-Project</title>
+    <link rel="stylesheet" href="dist/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="bg-gradient-to-br from-gray-100 to bg-gray-300">
+
+      <div class="absolute top-0 left-0 transform translate-y-3 translate-x-4">
+        <div class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-32 md:w-64 h-32 md:h-64 rounded-full opacity-50"></div>
+        <div class="absolute mt-10 ml-10 bg-gradient-to-br from-purple-100 to-purple-200  w-32 md:w-64 h-32 md:h-64 rounded-full opacity-50"></div>
+        <div class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200  w-32 md:w-64 h-32 md:h-64 rounded-full opacity-50"></div>
+      </div>
+
+      <div class="hidden md:block absolute top-0 right-0 mr-48 transform -translate-x-64 translate-y-64">
+        <div class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
+        <div class="absolute mt-10 ml-10 bg-gradient-to-br from-purple-100 to-purple-200  w-64 h-64 rounded-full opacity-50"></div>
+        <div class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200  w-64 h-64 rounded-full opacity-50"></div>
+      </div>
+
+    <!-- ====================HEADER START=================== -->
+      <div class="relative text-gray-600">
+      <div class="container mx-auto flex justify-between p-8 py-6">
+        <div class="flex items-center space-x-4">
+          <a href="#" class="font-bold text-2xl text-teal-600"
+            >Begginer Tailwind</a
+          >
+          <a class="hidden lg:inline-block hover:text-gray-900" href="#"
+            >About Us</a
+          >
+          <a class="hidden lg:inline-block hover:text-gray-900" href="#"
+            >What we learn</a
+          >
+          <a class="hidden lg:inline-block hover:text-gray-900" href="#"
+            >pricing</a
+          >
+          <a class="hidden lg:inline-block hover:text-gray-900" href="#">Faq</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a class="hover:text-gray-900" href="#">Log in</a>
+          <a class="hidden md:inline-block p-3 bg-purple-300 hover:bg-purple-400 font-medium text-purple-800 hover:text-purple-200 rounded shadow hover:shadow-lg transition-all duration-500"href="#">Sign up</a>
+        </div>
+      </div>
+      </div>
+    <!-- ====================HEADER END=================== -->
+
+    <!-- ====================HERO START=================== -->
+      <div class="relative">
+
+        <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
+
+      <div class="container mx-auto p-8 py-24 text-center">
+        <h1 class="font-monir mb-4 text-4xl lg:text-6xl font-extrabold">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500">Beginner</span>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-purple-600 to-purple-500">Tailwind</span>
+        </h1>
+
+        <p class="mb-12 text-lg lg:text-2xl text-gray-700">
+          Make good looking designs quickly. All without a single line of custom
+          CSS.
+        </p>
+
+        <a href="#" class="inline-block mb-16 md:mb-32 py-4 px-12 bg-gradient-to-br from-yellow-200 via-yellow-300 to-yellow-200 text-lg text-yellow-800 font-medium rounded tracking-wide shadow hover:shadow-2xl transition-all duration-500">Get The Course</a>
+
+        <div class="relative">
+          <img src="img/wysbBMS.png" alt="Teaser" class="rounded-lg shadow-xl border-4 border-purple-400" />
+
+          <div class="md:absolute top-0 right-0 bg-yellow-100 md:transform md:translate-x-4 md:-translate-y-4 text-left py-4 px-8 mt-8 md:mt-0 rounded shadow-lg text-yellow-800 border-t-4 border-yellow-500">
+            <p>
+              <strong class="font-bold">We'll create BeginnerTailwind.com</strong><span class="opacity-50 font-bold">(it's the site you're on now)</span>
+            </p>
+
+            <p>We'll do it all without a single line of custom CSS!</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    <!-- ====================HERO END=================== -->
+    </div>
+
+    <!-- ====================OVERVIEW START=================== -->
+    <div class="relative bg-purple-700 pb-24">
+
+      <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-200"></div>
+
+      <div class="relative container mx-auto p-8">
+          <h2 class="mb-10 text-4xl lg:text-6xl text-purple-100 font-bold">Writing CSS is tough stuff!</h2>
+
+          <div class="lg:flex space-y-8 lg:space-y-0 lg:space-x-16">
+            <div class="lg:w-2/3 bg-white p-8 lg:p-16 rounded shadow-2xl text-gray-700 text-xl space-y-8 leading-relaxed">
+              <p>Tailwind makes writing CSS easier and lets us customize our designs faster than any other CSS framework. If you want a CSS framework that has pre-built components, then Tailwind may not be for you. If you want a CSS framework that lets you design quickly and customize your site, then <strong class="font-bold text-teal-500">Tailwind is gonna be a lot of fun</strong>.</p>
+
+              <p>After using Bulma to build <a href="#" class="text-blue-500 hover:underline">Scotch.io</a> , my CSS files became littered with my own<code class="inline-block px-1 rounded bg-gray-200 text-blue-700 text-xs font-mono"> !important</code> classes to override the framework's styles. Tailwind doesn't have the <code class="inline-block px-1 rounded bg-gray-200 text-blue-700 text-xs font-mono">!important</code>problem since all our elements are designed on the fly.</p>
+
+              <p> <strong class="font-bold text-gray-800">Important Note:</strong> Tailwind lets us design quickly, but this doesn't mean that you don't need CSS knowledge however. To use Tailwind, you need to have a good understanding of CSS properties. In this course, we will learn <strong class="font-bold text-gray-800">Tailwind and we'll also learn CSS concepts</strong>to create good looking designs. <strong class="font-bold text-gray-800">Tailwind is the ultimate CSS shorthand</strong>, but we still need to learn the CSS, which we'll do in this course.</p>
+
+              <p class="relative text-3xl text-gray-800 italic"> <span class="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 text-6xl text-gray-400 opacity-50 scale-150">"</span> This isn't just a Tailwind course. This is also a "learn how to design with CSS" course.</p>
+
+              <p>The hardest things about learning Tailwind is memorizing the classes and also knowing which classes go well together. We'll be writing a lot of Tailwind in this course so that the repetition will help us commit Tailwind classes to memory.</p>
+
+            </div>
+
+            <div class="flex-grow text-lg italic space-y-4">
+              <div class="p-8 rounded bg-purple-800 text-purple-200">What classes should I use?</div>
+
+              <div class="p-8 rounded bg-purple-800 text-purple-200"> How do I make things look good?</div>
+
+              <div class="p-8 rounded bg-purple-800 text-purple-200"> My design looks basi?</div>
+
+              <div class="p-8 rounded bg-purple-800 text-purple-200"> How do I do responsive?</div>
+
+              <div class="p-8 rounded bg-purple-800 text-purple-200"> Why does my typography look so bad?</div>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <!-- ====================OVERVIEW END=================== -->
+
+    <!-- ====================ABOUT START=================== -->
+    <div class="pt-12 pb-24 bg-gray-200">
+      <div class="container mx-auto p-8">
+        <h1 class="text-2xl md:text-4xl lg:text-6xl text-center text-teal-900 font-bold mb-5">Some Tailwind Videos I've Done</h1>
+
+        <p class="text-xl leading-loose mb-12">Hey there! My name is <a href="#" class="text-blue-500 hover:underline">Chris Sev</a> and I founded a web dev tutorial site <a href="#" class="text-blue-500 hover:underline">Scotch.io.</a> We were able to grow to 4M monthly pageviews and $300,000 yearly revenue. Scotch.io was acquired by <a href="#" class="text-blue-500 hover:underline">DigitalOcean</a> in November 2019. Nowadays I'm in search of the best ways to develop and design a business. Hope you enjoy this course and my other one <a href="#" class="text-blue-500 hover:underline">MakeReactApps.com</a>.</p>
+
+        <div class="md:flex md:space-x-4 lg:space-x-8 space-y-4 md:space-y-0 text-left">
+          <div class="md:w-1/2 rounded border-2 border-black shadow-2xl">
+            <p class="p-8">I have a Getting started with Tailwind article on <a href="#" class="text-blue-500 hover:underline">scotch.io</a> and a 15 minute starter YouTube video.</p>
+
+            <iframe class="w-full" height="380" src="https://www.youtube.com/embed/2B5rbsOoIUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="md:w-1/2 rounded border-2 border-black shadow-2xl">
+            <p class="px-8 pt-8 pb-14 ">I did a Build Your 1st Tailwind Site for <a href="#" class="text-blue-500 hover:underline">Traversy Media</a> on YouTube also.</p>
+
+            <iframe class="w-full" height="380" src="https://www.youtube.com/embed/NdftnCDwKaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================ABOUT END=================== -->
+
+    <!-- ====================LEARN START=================== -->
+    <div class="py-12 bg-gray-200 text-gray-700">
+      <div class="container mx-auto p-8">
+
+        <div class="relative">
+          <h2 class="mb-16 md:mb-32 text-2xl md:text-4xl lg:text-6xl text-center text-gray-800 font-bold">What you'll learn in this course</h2>
+
+          <div class="absolute top-0 left-0 w-1/3 h-2  bg-gradient-to-r from-purple-400 to-teal-500 rounded transform -translate-y-4"></div>
+          <div class="absolute bottom-0 right-0 w-1/3 h-2  bg-gradient-to-r from-teal-500 to-purple-500   rounded transform translate-y-4"></div>
+        </div>
+
+        <div class="lg:grid grid-cols-6 space-y-5 md:space-y-8 lg:space-y-0 lg:gap-9">
+          <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">How to use Tailwind classes</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">We'll dive into the most important Tailwind classes and use them a TON. There are a lot of useful classes like spacing, backgrounds, borders, shadows, and typography. We'll type the Tailwind classes many times over to ensure that repeitition is our greatest learning tool.</p>
+          </div>
+
+          <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Make good looking designs</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">There's a certain process to designing with Tailwind that we'll take to make our designs look good. Some easy to remember rules are all it takes to get a good design. We'll also talk about ideas and action items to take a good design and make it great</p>
+          </div>
+
+          <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Why Tailwind is different/better</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">To be completely honest, I didn't like Tailwind at first. It felt like inline styles to me (and maybe still does). After using it more and more though, I've come to absolutely love it. I dread jumping into a project without Tailwind now.</p>
+          </div>
+
+          <div class="col-span-3 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">How to build this site (site-ception!)</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="px-4 pt-4">The site you're on (BeginnerTailwind.com) is built with Tailwind and has 0 custom css.</p>
+            <p class="p-4">You can take all of the code from this site and use it for your own landing pages or sites! All the code is available to you with course purchase.</p>
+          </div>
+
+          <div class="col-span-3 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">A fun and methodical design process</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">I struggle with making things look good and don't consider myself a designer. What I try to do is have a formula for making things look good. I focus on design in this order: spacing, box properties, typography, fun element to pop. We'll talk about this all throughout the course.</p>
+          </div>
+
+          <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Creating common components</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="px-4 pt-4">One of the first things we want to do when using Tailwind is to create components like cards, buttons, and forms. We'll build these out and see how Tailwind compares to CSS frameworks like Bootstrap.</p>
+            <p class="p-4">We'll also build out navigation, hero, pricing, newsletter, and footer components in this course.</p>
+          </div>
+
+          <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Shrinking bundle sizes</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="px-4 pt-4">Tailwind comes with so many classes. It doesn't make sense to send all of those to our users' browsers. With PostCSS and PurgeCSS, we can shrink the amount of CSS we send to our users.</p>
+            <p class="p-4">We'll learn how to only send the classes that we actually use so that our bundle sizes can drop to even below 10kb!</p>
+          </div>
+
+          <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Using Tailwind w/ React</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="px-4 pt-4">Tailwind's benefits really shine when you pair it with a JavaScript library/framework. Extracting classes into components is the recommended way to keep Tailwind DRY (don't repeat yourself).</p>
+            <p class="p-4">While we could use the @apply() or theme() functions, it forgoes some of the benefits of Tailwind. Namely we are once again creating a custom class and CSS.</p>
+          </div>
+
+           <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">How to customize Tailwind</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">Tailwind is easily configurable for our own projects using the tailwind.js config file. We'll explore changing out fonts, colors, sizes, and more so that our Tailwind setups are custom and tailored to our projects.</p>
+          </div>
+
+           <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Using Tailwind in VS Code</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">VS Code is my favorite editor and Tailwind works fantastically in it. There are some essential plugins and setup for using Tailwind in VS Code. We'll go over each and use VS Code heavily in this course.</p>
+          </div>
+
+           <div class="col-span-2 border-2 border-gray-700 rounded-lg shadow">
+
+            <div class=" p-4 flex items-center justify-between border-b-2 border-gray-700">
+              <h3 class="text-lg text-gray-700 text-left font-bold">Extending Tailwind</h3>
+
+              <div class="flex gap-2">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-teal-500"></div>
+              </div>
+            </div>
+
+            <p class="p-4">Learning Tailwind is just the beginning. There are some great tools like Tailwind Typography, Tailwind UI, Tailwind Builder, and more. We'll talk about some ways to extend Tailwind and ways we can go further.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================LEARN END=================== -->
+
+    <!-- ====================BUILD START=================== -->
+    <div class="bg-gray-300 py-32">
+      <div class="container mx-auto p-8">
+        <h2 class="mb-2 text-5xl text-gray-900 text-center">What we'll build in this course</h2>
+        <p class="text-gray-700 text-lg text-center mb-8">These components are things you'll have to create in every project.</p>
+
+        <div class="md:grid md:grid-cols-2 lg:grid-cols-4 space-y-5 md:space-y-0 md:gap-6 lg:gap-5">
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-red-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Buttons</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-blue-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Cards</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-teal-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Forms</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-yellow-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Header</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-yellow-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Navigation</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-purple-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Hero</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-purple-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Grids</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-teal-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Newsletter</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-purple-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Pricing Section</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-teal-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">FAQ Section</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-blue-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Parcel.js Setup</p>
+          </div>
+
+          <div class="bg-gray-200 rounded shadow flex items-center">
+            <span class="py-3 p-7 bg-yellow-500 text-3xl rounded-l">😍</span>
+            <p class="py-2 p-6 text-gray-700">Responsive</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================BUILD END=================== -->
+
+    <!-- ====================PRICING START=================== -->
+    <div class=" relative bg-blue-600 lg:py-32 py-16">
+
+      <div class="absolute top-0 inset-x-0 bg-gray-300 h-48"></div>
+
+      <div class="container mx-auto p-8 flex flex-col lg:flex-row items-center lg:space-x-8">
+
+        <div class="order-2 lg:order-1 lg:w-1/3 pt-12 text-center lg:text-right text-xl md:text-2xl text-teal-100 space-y-4">
+
+          <p><span class="text-white font-bold">75 videos</span> at a smooth pace</p>
+          <p><span class="text-white font-bold">9.25 hours</span> of learning + building</p>
+          <p><span class="text-white font-bold">Source code</span> and CodePens</p>
+
+        </div>
+
+        <div class="order-1 lg:order-2 relative w-full lg:w-1/3 bg-white p-8 text-gray-700 text-center rounded shadow-2xl space-y-5 border-8 border-purple-800 hover:scale-105 transform transition-all duration-300">
+
+          <div class="absolute top-0 inset-x-0 transform -translate-y-full flex items-end justify-center space-x-8">
+            <div class="h-16 w-2 mb-12 bg-red-500 rounded transform -rotate-45 origin-bottom"></div>
+            <div class="h-24 w-2 mb-12 bg-yellow-500 rounded"></div>
+            <div class="h-16 w-2 mb-12 bg-green-500 transform rotate-45 rounded origin-bottom"></div>
+          </div>
+
+          <h4 class="text-gray-700 text-lg">Start Tailwind-ing!</h4>
+          <div class="text-6xl">$28.80</div>
+          <a href="#" class="block py-4 px-8 bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-400 text-2xl text-yellow-800 text-center rounded shadow">Get The Course</a>
+        </div>
+
+        <div class="order-3 lg:order-3 lg:w-1/3 pt-12 lg:text-left text-center text-xl md:text-2xl text-teal-100 space-y-4 ">
+          <p>Use the code in <span class="text-white font-bold">your projects</span></p>
+          <p>Access to <span class="text-white font-bold">Discord</span> for support</p>
+          <p>Lifetime refund <span class="text-white font-bold">guarantee</span></p>
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================PRICING END=================== -->   
+
+    <!-- ====================MODULES START=================== -->
+    <div class="py-32 bg-gradient-to-b from-gray-700 to-gray-800">
+      <div class="container p-8 mx-auto">
+
+        <div class="text-center space-y-4 mb-10">
+          <p class="text-gray-300  text-2xl md:text-6xl font-bold">The Modules/Videos</p>
+          <p class="text-gray-300 text-lg md:text-2xl">9.25 hours of Tailwind learning in 19 modules/75 videos.</p>
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-gray-800 mx-auto flex justify-between items-center rounded-t-lg text-gray-400">
+
+          <p class="text-xl md:text-3xl">Getting Started</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">6</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-opacity-75 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Main Concepts</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">11</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">67</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Layout</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">3</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">34</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-opacity-75 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Card Components</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">3</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Buttons</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">5</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-opacity-75 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">From</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">6</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Header</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">7</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-opacity-75 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Hero</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">3</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Overview</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">4</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-opacity-75 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">About</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">6</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">33</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-gray-800 mx-auto flex justify-between items-center text-gray-400">
+
+          <p class="text-xl md:text-3xl">Testimonial</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">5</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">36</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="md:py-4 px-5 md:px-14 max-w-3xl h-28 bg-opacity-75 bg-gray-800 mx-auto flex justify-between items-center text-gray-400 rounded-b-lg">
+
+          <p class="text-xl md:text-3xl">Footer</p>
+
+          <div class="flex gap-8">
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">4</p>
+              <p class="text-gray-600">Videos</p>
+            </div>
+
+            <div class="text-center">
+              <p class="text-xl md:text-3xl">43</p>
+              <p class="text-gray-600">minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================MODULES END=================== -->
+
+    <!-- ====================FAQ START=================== -->
+    <div class="py-8 md:py-28 bg-gray-800">
+      <div class="container mx-auto p-8">
+        <h3 class="text-center text-3xl text-gray-400 mb-12">Frequently Asked Questions</h3>
+
+        <div class="md:grid grid-cols-2 gap-8 space-y-6 md:space-y-0">
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">Do I need to know CSS?</h4>
+            <p class="text-gray-400 ">This course is aimed at people that have some CSS knowledge and want to learn Tailwind. I do talk through CSS concepts and why we're using certain classes all throughout the course so you don't need to be a CSS expert.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">Is there course support?</h4>
+            <p class="text-gray-400 ">You can email me directly at any time and we also have a <a href="#" class="text-blue-400 hover:underline">Discord community</a> where you gain exclusive channel access.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">Can I use the code in my own projects?</h4>
+            <p class="text-gray-400 ">Definitely! All of the code in this course is yours to use in your sites, apps, projects, whatever.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">What if I don't like it?</h4>
+            <p class="text-gray-400 ">I offer a lifetime refund policy. If you ever feel like you didn't gain value from this course, then you can request a refund from your course dashboard (totally automated process, no questions asked).</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">How do I login and view the course?</h4>
+            <p class="text-gray-400 ">You can login at <a href="#" class="text-blue-400 hover:underline">learn.better.dev</a>. Use the login button in the top right.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">Is there a student discount?</h4>
+            <p class="text-gray-400 ">Yup! <a href="#" class="text-teal-400 font-bold">50% off!</a> Email me at chris@better.dev with your student id and I'll send you a discount code.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">Is there purchase parity for my country?</h4>
+            <p class="text-gray-400 ">Yup! Email me at chris@better.dev and I'll send you a purchase power parity code.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">Is there an affiliate program?</h4>
+            <p class="text-gray-400 ">Yup! You get 50% of every sale that you bring in. You can sign up for a course and turn on affiliate mode from your dashboard at <a href="#" class="text-blue-500 hover:underline">learn.better.dev</a>. Or you can email me at chris@better.dev.</p>
+          </div>
+
+          <div class="p-8 border-2 border-gray-500 rounded-lg">
+            <h4 class="text-xl text-gray-200 mb-4">I have more questions!</h4>
+            <p class="text-gray-400 ">Drop me an email at chris@better.dev. Let's chat.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================FAQ END=================== -->
+
+    <!-- ====================FOOTER START=================== -->
+    <div class="relative py-20 bg-gradient-to-br from-gray-100 to bg-gray-300">
+
+      <div class="absolute top-0 left-0">
+        <div class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-32 md:w-64 h-32 md:h-64 rounded-full opacity-50"></div>
+        <div class="absolute mt-10 ml-10 bg-gradient-to-br from-purple-100 to-purple-200  w-32 md:w-64 h-32 md:h-64 rounded-full opacity-50"></div>
+        <div class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200  w-32 md:w-64 h-32 md:h-64 rounded-full opacity-50"></div>
+      </div>
+
+      <div class="relative container mx-auto p-8">
+
+        <div class="lg:flex justify-between space-y-10 lg:space-y-0">
+          <div class="flex flex-col justify-center">
+            <h4 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">Get updates on this course</h4>
+
+            <form action="#" method="POST" class="flex">
+
+              <input type="email" name="email" placeholder="pro@koilam.com" class="w-full rounded rounded-r-none p-4 outline-none border-2 border-r-0 border-gray-400 focus:border-purple-400 placeholder-gray-300">
+
+              <button class="py-4 px-3 rounded-r bg-purple-500 text-gray-100">Subscribe</button>
+
+            </form>
+          </div>
+
+          <div class="text-left md:text-right md:flex md:justify-center md:space-x-24 space-y-10 md:space-y-0">
+            <div class="space-y-4 text-gray-600">
+              <p class="mb-3 text-lg text-gray-400 tracking-wider font-bold">Company</p>
+
+              <a href="#" class="block hover:underline hover:text-gray-900">About</a>
+              <a href="#" class="block hover:underline hover:text-gray-900">Career</a>
+              <a href="#" class="block hover:underline hover:text-gray-900">Blogs</a>
+            </div>
+
+            <div class="space-y-4 text-gray-600">
+              <p class="mb-3 text-lg text-gray-400 tracking-wider font-bold">Product</p>
+
+              <a href="#" class="block hover:underline hover:text-gray-900">Pricing</a>
+              <a href="#" class="block hover:underline hover:text-gray-900">Documantation</a>
+              <a href="#" class="block hover:underline hover:text-gray-900">Guide</a>
+            </div>
+
+            <div class="space-y-4 text-gray-600">
+              <p class="mb-3 text-lg text-gray-400 tracking-wider font-bold">LEGAL STUFF</p>
+
+              <a href="#" class="block hover:underline hover:text-gray-900">Term</a>
+              <a href="#" class="block hover:underline hover:text-gray-900">Privacy</a>
+              <a href="#" class="block hover:underline hover:text-gray-900">Rules</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="pt-4 mt-20 md:flex justify-between border-t border-gray-300 text-gray-500 space-y-6 md:space-y-0">
+          <div>Copyright &copy; 2021-2025 <a href="#" class="hover:underline">PRO SHAHEB</a></div>
+
+          <div class="flex gap-4">
+            <a href="#" class="hover:underline">Twitter</a>
+            <a href="#" class="hover:underline">Discord</a>
+            <a href="#" class="hover:underline">LogIn</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- ====================FOOTER END=================== -->
+
+
+  </body>
+</html>
